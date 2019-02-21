@@ -10,4 +10,4 @@ sensor.read(11, 4, function(err, temperature, humidity) {
 
 });
 }
-setInterval(time,3000);
+setInterval(time,100);

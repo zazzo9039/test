@@ -6,6 +6,7 @@ sensor.read(11, 4, function(err, temperature, humidity) {
         console.log('temp: ' + temperature.toFixed(2) + '\u00B0C, ' +
             'humidity: ' + humidity.toFixed(2) + '%'
         );
+	    console.log('test git revert commit ');
     }
 
 });
